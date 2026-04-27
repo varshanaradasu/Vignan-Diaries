@@ -1,0 +1,20 @@
+/* Save/Collections modal */
+.save-overlay { position: fixed; inset: 0; background: rgba(255,255,255,0.6); backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.save-modal { width: 440px; max-width: calc(100% - 32px); background: #fff; color: var(--color-text); border: 1px solid var(--color-border); border-radius: 18px; box-shadow: 0 24px 70px rgba(0,0,0,0.18); overflow: hidden; }
+.save-header { padding: 16px 18px; font-weight: 800; border-bottom: 1px solid var(--color-border); letter-spacing: .2px; }
+.save-list { max-height: 320px; overflow: auto; padding: 12px 14px; display: grid; gap: 10px; background: #fff; }
+.save-item { display: flex; align-items: center; justify-content: space-between; padding: 12px 12px; border-radius: 12px; cursor: pointer; border: 1px solid var(--color-border); background: #fff; transition: background .2s ease, border-color .2s ease; }
+.save-item:hover { background: #f7f7f7; }
+.save-item input { accent-color: var(--color-primary); }
+/* Highlight selected collection (modern browsers) */
+.save-item:has(input:checked) { border-color: var(--color-primary); background: #f4faff; }
+.save-left { display: flex; align-items: center; gap: 10px; }
+.save-avatar { width: 28px; height: 28px; border-radius: 50%; background: var(--ig-gradient); color: #fff; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; }
+.save-name { font-weight: 600; }
+.save-check { appearance: none; width: 18px; height: 18px; border: 2px solid var(--color-border); border-radius: 6px; background: #fff; position: relative; }
+.save-check:hover { border-color: #c7c7c7; }
+.save-check:checked { background: var(--color-primary); border-color: var(--color-primary); }
+.save-check:checked::after { content: ''; position: absolute; left: 5px; top: 1px; width: 5px; height: 10px; border: 2px solid #fff; border-top: 0; border-left: 0; transform: rotate(45deg); }
+.save-new { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--color-border); background: #fff; }
+.save-input { flex: 1; border: 1px solid var(--color-border); border-radius: 12px; padding: 10px 12px; background: #fff; }
+.save-actions { display: flex; justify-content: flex-end; padding: 12px; border-top: 1px solid var(--color-border); background: #fff; }

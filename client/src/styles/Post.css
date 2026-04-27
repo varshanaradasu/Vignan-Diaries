@@ -1,0 +1,154 @@
+/* Post Page Styles */
+.post-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Header */
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+.post-title::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 3px;
+  border-radius: 999px;
+  background: var(--ig-gradient);
+  margin-top: 8px;
+}
+
+/* Like button in header */
+.post-header .post-like-btn {
+  margin-left: auto;
+}
+
+/* Cover */
+.post-cover {
+  margin: 12px 0 16px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: #fff;
+}
+.post-cover-img {
+  width: 100%;
+  max-height: 460px;
+  object-fit: cover;
+  display: block;
+}
+
+/* TOC */
+.post-toc { background: #fff; border: 1px solid var(--color-border); border-radius: 12px; padding: 0.75rem 1rem; margin-bottom: 1rem; }
+.post-toc h4 { margin: 0 0 0.5rem; font-size: 0.95rem; color: var(--color-text-light); }
+.post-toc ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.post-toc li { font-size: 0.95rem; }
+.post-toc a { color: var(--color-primary); }
+.post-toc .l3 { padding-left: 12px; font-size: 0.9rem; }
+
+/* Body */
+.post-body {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  color: var(--color-text);
+  animation: fadeIn 0.3s ease-out;
+}
+.post-body p { margin: 0 0 1rem; }
+.post-body h1 { font-size: 1.9rem; margin: 1.25rem 0 0.75rem; }
+.post-body h2 { font-size: 1.6rem; margin: 1.1rem 0 0.6rem; }
+.post-body h3 { font-size: 1.3rem; margin: 1rem 0 0.5rem; }
+.post-body ul,
+.post-body ol { padding-left: 1.2rem; margin: 0.75rem 0; }
+.post-body li { margin: 0.4rem 0; }
+.post-body a { text-decoration: underline; }
+
+.post-body blockquote {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #ed4956;
+  background: #fff8f9;
+  border-radius: 8px;
+}
+
+.post-body pre {
+  background: #0f172a;
+  color: #e5e7eb;
+  border-radius: 10px;
+  padding: 1rem;
+  overflow: auto;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+.post-body code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.post-body :not(pre) > code { background: #f4f4f5; color: #111; padding: 0.1rem 0.3rem; border-radius: 6px; }
+
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  display: block;
+  margin: 0.75rem auto;
+}
+
+.post-page hr { border: none; height: 1px; background: var(--color-border); margin: 1.25rem 0; }
+
+/* Comments */
+.comments-section {
+  margin-top: 1.25rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1rem;
+}
+.comments-title { font-size: 1.25rem; margin-bottom: 0.75rem; }
+
+.comment-list .comment-item { padding: 0.75rem 0; border-bottom: 1px solid var(--color-border); }
+.comment-list .comment-item:last-child { border-bottom: none; }
+.comment-list .comment-item strong { color: var(--color-text); }
+.comment-list .comment-item small { color: var(--color-text-light); display: block; margin-top: 4px; }
+
+.comment-form { margin-top: 0.75rem; display: grid; gap: 0.5rem; }
+.comment-form .cf-input,
+.comment-form .cf-textarea { width: 100%; }
+.comment-form .cf-textarea { min-height: 120px; resize: vertical; }
+ .comment-form .cf-actions { display: flex; justify-content: flex-end; }
+
+/* Progress */
+.post-progress { position: sticky; top: 0; left: 0; right: 0; height: 3px; background: transparent; z-index: 90; }
+.post-progress-inner { height: 100%; background: var(--ig-gradient); border-radius: 0 2px 2px 0; transition: width 0.1s linear; }
+
+/* Actions row (likes, comments) */
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0.75rem 0 1rem;
+  color: var(--color-text-light);
+}
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.action-btn:hover { background: #f7f7f7; }
+.action-icon { font-size: 18px; line-height: 1; display: inline-flex; }
+.action-count { font-weight: 600; color: var(--color-text); }

@@ -1,0 +1,286 @@
+/* Global Styles & CSS Variables */
+:root {
+  /* Instagram-inspired palette */
+  --color-primary: #0095f6; /* IG blue for primary actions */
+  --color-primary-dark: #0074cc;
+  --color-success: #10b981;
+  --color-danger: #ed4956; /* IG like red */
+  --color-warning: #f59e0b;
+  --color-text: #262626;
+  --color-text-light: #8e8e8e;
+  --color-border: #dbdbdb;
+  --color-bg: #ffffff;
+  --color-bg-alt: #fafafa;
+
+  /* Gradients */
+  --ig-gradient: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Typography */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Inter',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-bg-alt);
+  color: var(--color-text);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--color-text);
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.25rem; }
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* Forms */
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  background: #fff;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 149, 246, 0.15);
+}
+
+input::placeholder, textarea::placeholder {
+  color: #a8a8a8;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.2s ease, background 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+/* Primary Button (IG blue) */
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover:not(:disabled) {
+  filter: brightness(0.97);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/* Secondary Button */
+.btn-secondary {
+  background: #fff;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+/* Ghost Button */
+.btn-ghost {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.btn-ghost:hover:not(:disabled) {
+  background: #f7f7f7;
+}
+
+/* Danger Button */
+.btn-danger {
+  color: var(--color-danger);
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: var(--color-danger);
+  color: white;
+  border-color: var(--color-danger);
+}
+
+/* Button Sizes */
+.btn-small {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.85rem;
+}
+
+.btn-large {
+  padding: 0.9rem 1.6rem;
+  font-size: 1.05rem;
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+}
+
+/* Utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.text-center { text-align: center; }
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mb-4 { margin-bottom: 2rem; }
+
+/* Simple cards (IG-style: light border, no heavy shadows) */
+.card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Blur-up images */
+.blur-up { filter: blur(12px); transform: scale(1.02); transition: filter .4s ease, transform .4s ease; background: #f1f5f9; }
+.blur-up.loaded { filter: blur(0); transform: none; }
+
+/* Heart like animation (IG red) */
+.heart-btn { position: relative; overflow: hidden; }
+.heart { display: inline-block; transition: transform .2s ease, filter .2s ease; }
+.heart.on { color: var(--color-danger); filter: drop-shadow(0 2px 4px rgba(237,73,86,.35)); }
+.heart-burst .heart { animation: heart-pop .45s ease; }
+@keyframes heart-pop { 0%{ transform: scale(1);} 40%{ transform: scale(1.5);} 100%{ transform: scale(1);} }
+.heart-burst::after,
+.heart-burst::before { content: '❤'; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); color: rgba(237,73,86,.5); pointer-events: none; animation: heart-spark .5s ease both; }
+.heart-burst::before { content: '💖'; animation-duration: .6s; }
+@keyframes heart-spark { 0%{ opacity: 0; transform: translate(-50%,-50%) scale(.6);} 60%{ opacity: 1;} 100%{ opacity: 0; transform: translate(-50%,-90%) scale(1.6);} }
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in { animation: fadeIn 0.6s ease-out; }
+.slide-in { animation: slideIn 0.6s ease-out; }
+
+/* Helpers for IG gradient accents */
+.ig-gradient-text {
+  background: var(--ig-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.ig-ring {
+  background: var(--ig-gradient);
+}
+
+/* Saved state styling */
+.btn-secondary.is-saved { background: #f4faff; border: 1px solid #bfe4ff; color: #0b6bbf; }
+.action-btn.is-saved { background: #f4faff; border-color: #bfe4ff; color: #0b6bbf; }
+.action-btn.is-saved .action-icon { color: #0b6bbf; }
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  --color-text: #e5e5e5;
+  --color-text-light: #a3a3a3;
+  --color-border: #333333;
+  --color-bg: #0f0f10;
+  --color-bg-alt: #111113;
+}
+:root[data-theme="dark"] body { background-color: var(--color-bg-alt); }
+:root[data-theme="dark"] .card,
+:root[data-theme="dark"] .btn-secondary,
+:root[data-theme="dark"] .btn-ghost { background: #161618; border-color: var(--color-border); color: var(--color-text); }
+:root[data-theme="dark"] .btn-primary { filter: brightness(0.95); }
+
+/* Skeleton loading */
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgba(0,0,0,0.06), rgba(0,0,0,0.12), rgba(0,0,0,0.06));
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.2s ease-in-out infinite;
+  border-radius: 8px;
+}
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}

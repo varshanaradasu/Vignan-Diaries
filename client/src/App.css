@@ -1,0 +1,431 @@
+/* App Layout */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar (Instagram-style: solid white, light border) */
+.navbar {
+  background: #fff;
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 1.6rem;
+}
+.logo-text {
+  background: var(--ig-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background: var(--ig-gradient);
+  transition: width 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+}
+
+/* Profile menu */
+.profile-menu {
+  position: relative;
+}
+.profile-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ig-gradient);
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.profile-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+.profile-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+.role-badge {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 999px;
+  margin-top: 2px;
+  background: #eee;
+  color: #333;
+  text-transform: uppercase;
+}
+.role-badge.student {
+  background: #e6ffed;
+  color: #0f5132;
+  border: 1px solid #b7f7cc;
+}
+.role-badge.faculty {
+  background: #e7f1ff;
+  color: #0b5ed7;
+  border: 1px solid #cfe2ff;
+}
+.role-badge.admin {
+  background: #f8e8ff;
+  color: #6f42c1;
+  border: 1px solid #e5c7ff;
+}
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 110%;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  min-width: 180px;
+  padding: 6px;
+  z-index: 1000;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: white;
+  color: var(--color-text);
+  border: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.dropdown-item:hover {
+  background: #f7f7f7;
+}
+
+/* Search */
+.nav-search {
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 6px 10px;
+  min-width: 180px;
+}
+.nav-search:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 149, 246, 0.15);
+}
+
+/* Theme toggle */
+.theme-toggle {
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+/* Bottom nav (mobile) */
+.bottom-nav {
+  display: none;
+}
+@media (max-width: 768px) {
+  .bottom-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 56px;
+    background: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border-top: 1px solid var(--color-border);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    z-index: 120;
+  }
+  .bottom-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    color: var(--color-text);
+    text-decoration: none;
+    background: transparent;
+    border: none;
+  }
+  .main-content {
+    padding-bottom: 64px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-content {
+    padding: 0.6rem 0.75rem;
+  }
+  .navbar-links {
+    gap: 0.5rem;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  .logo-text {
+    display: none;
+  }
+}
+
+/* ===============================
+   🌙 Bright Dark Mode (Balanced)
+   =============================== */
+[data-theme='dark'] {
+  /* Modern balanced dark shades */
+  --color-bg: #222533;
+  --color-surface: #2e3243;
+  --color-border: #3c3f51;
+  --color-text: #f4f6fb;
+  --color-text-muted: #c3c6d4;
+  --color-primary: #4e9af1;
+  --color-accent: #ff79c6;
+  --ig-gradient: linear-gradient(45deg, #7b5cff, #ff79c6);
+
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Backgrounds */
+[data-theme='dark'] body,
+[data-theme='dark'] .app,
+[data-theme='dark'] .main-content {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Navbar */
+[data-theme='dark'] .navbar {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* Headings and text */
+[data-theme='dark'] h1,
+[data-theme='dark'] h2,
+[data-theme='dark'] h3,
+[data-theme='dark'] p {
+  color: var(--color-text);
+}
+[data-theme='dark'] .subtitle {
+  color: var(--color-text-muted);
+}
+
+/* Inputs / Search bar */
+[data-theme='dark'] .nav-search {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+/* Buttons */
+[data-theme='dark'] .btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+[data-theme='dark'] .btn-ghost {
+  background: transparent;
+  color: var(--color-text);
+}
+[data-theme='dark'] .btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Dropdowns / Menus */
+[data-theme='dark'] .dropdown,
+[data-theme='dark'] .profile-button {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+/* Role Badges */
+[data-theme='dark'] .role-badge {
+  background: #383c50;
+  color: #d6d9e8;
+  border: 1px solid var(--color-border);
+}
+
+/* Links */
+[data-theme='dark'] a {
+  color: var(--color-primary);
+}
+[data-theme='dark'] a:hover {
+  color: var(--color-accent);
+}
+
+/* Bottom nav (mobile) */
+[data-theme='dark'] .bottom-nav {
+  background: #2b2e40e6;
+  backdrop-filter: blur(8px);
+  border-top: 1px solid var(--color-border);
+}
+
+/* ===============================
+   🌙 Dark Theme Fix for Landing Page
+   =============================== */
+
+/* Apply dark background to all landing and section elements */
+[data-theme='dark'] section,
+[data-theme='dark'] .landing,
+[data-theme='dark'] .landing-section,
+[data-theme='dark'] .features,
+[data-theme='dark'] .hero,
+[data-theme='dark'] .about,
+[data-theme='dark'] .stats-section {
+  background: var(--color-bg) !important;
+  color: var(--color-text) !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Headings and subtitles in Landing page */
+[data-theme='dark'] .landing h1,
+[data-theme='dark'] .landing h2,
+[data-theme='dark'] .landing h3,
+[data-theme='dark'] .landing p {
+  color: var(--color-text);
+}
+
+[data-theme='dark'] .landing .subtitle,
+[data-theme='dark'] .landing .description {
+  color: var(--color-text-muted);
+}
+
+/* Feature cards or boxes */
+[data-theme='dark'] .feature-box,
+[data-theme='dark'] .feature,
+[data-theme='dark'] .card,
+[data-theme='dark'] .info-card {
+  background: var(--color-surface) !important;
+  color: var(--color-text) !important;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+
+/* Card hover glow effect */
+[data-theme='dark'] .feature-box:hover,
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  transform: translateY(-3px);
+}
+
+/* Fix stats / counters at the bottom */
+[data-theme='dark'] .stats,
+[data-theme='dark'] .stats-section,
+[data-theme='dark'] .stats-box {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+/* Hero or intro banner */
+[data-theme='dark'] .hero,
+[data-theme='dark'] .intro {
+  background: linear-gradient(180deg, #2a2d3b 0%, #1f2230 100%) !important;
+  color: var(--color-text);
+}
+
+/* Buttons in Landing */
+[data-theme='dark'] .btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+[data-theme='dark'] .btn-primary:hover {
+  background: #5aa4f7;
+}
+[data-theme='dark'] .btn-ghost {
+  background: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+/* Fix footer if present */
+[data-theme='dark'] footer {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-top: 1px solid var(--color-border);
+}
