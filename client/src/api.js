@@ -2,7 +2,7 @@ import axios from 'axios';
 import { API_URL, getToken } from './lib/auth';
 
 export const api = axios.create({
-  baseURL: `${String(API_URL).replace(/\/$/, '')}/api`,
+  baseURL: `${API_URL}/api`,
 });
 
 api.interceptors.request.use((config) => {

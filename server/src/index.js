@@ -20,15 +20,23 @@ const usersRoutes = require('./routes/users.routes');
 const app = express();
 const server = http.createServer(app);
 
-// Local development CORS
-const allowedOrigins = [
-  "http://localhost:5173"
-];
+const allowedOrigins = String(process.env.CLIENT_ORIGIN || 'http://localhost:5173')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean);
+
+function corsOrigin(origin, callback) {
+  // Allow requests with no origin (e.g. mobile apps, curl)
+  if (!origin) return callback(null, true);
+  if (allowedOrigins.includes(origin)) return callback(null, true);
+  return callback(new Error(`CORS policy does not allow access from origin ${origin}`), false);
+}
 
 const io = new Server(server, {
   cors: {
-    origin: allowedOrigins,
+    origin: corsOrigin,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
   },
 });
 
@@ -40,17 +48,8 @@ io.on('connection', (socket) => {
   });
 });
 
-// ✅ Apply same CORS policy to Express
 app.use(cors({
-  origin: function (origin, callback) {
-    // Allow requests with no origin (e.g. mobile apps, curl)
-    if (!origin) return callback(null, true);
-    if (allowedOrigins.indexOf(origin) === -1) {
-      const msg = `CORS policy does not allow access from origin ${origin}`;
-      return callback(new Error(msg), false);
-    }
-    return callback(null, true);
-  },
+  origin: corsOrigin,
   credentials: true
 }));
 
