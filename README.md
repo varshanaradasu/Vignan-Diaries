@@ -81,7 +81,7 @@ During this course, I developed a strong foundation in full stack development, g
   It focused on understanding requirements, creating structured code, and implementing key features.
 </p>
 <p>
-  <a href="https://github.com/sure-trust/VARSHA-NARADASU-g30-fsd/blob/ba08837fe6af3132ce96ae1e3abf8154fb0335bf/Course%20report/Varsha%20-%20G30%20FSD.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="https://github.com/varshanaradasu/Vignan-Diaries/blob/9d5aee9c96f65e353fcb502d482717e1f8c628bc/SURE%20Trust%20project%20document.docx" target="_blank"><strong>→ View Full Project Report</strong></a>
 </p>
 
 
