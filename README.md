@@ -33,7 +33,7 @@
     <p><strong>Instructor Name:</strong> <!--- Add your instructor name---> </p>
 </div>
 <div align="left" style="margin: 20px; font-size: 16px;">
-    <p><strong>Duration:</strong> March 2026 - April 2026 </p>
+    <p><strong>Duration:</strong> 6 Months </p>
 
 <hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
