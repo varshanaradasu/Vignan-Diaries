@@ -1,165 +1,189 @@
-# MERN Blogging Platform
+<div align="center" style="border: 2px solid #ccc; padding: 20px; border-radius: 12px; width: 80%; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+    <img
+        width="180"
+        height="220"
+        alt="Logo - SURE ProEd"
+        src="https://github.com/user-attachments/assets/88fa5098-24b1-4ece-87df-95eb920ea721"
+        style="border-radius: 10px;"
+    />
 
-A full-stack blogging platform built with MongoDB, Express, React, and Node.js.
+  <h1 align="center" style="font-family: Arial; font-weight: 600; margin-top: 15px;">SURE ProEd (formerly SURE Trust) 
+      </h1>
+<h2 style="color: #2b6cb0; font-family: Arial;">Skill Upgradation for Rural youth Empowerment Trust</h2>
+</div>
 
-## Features
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-- ✍️ Create and publish blog posts with Markdown editor
-- 🏷️ Tag-based filtering
-- 💬 Real-time commenting with Socket.io
-- 👤 User authentication (register/login)
-- ❤️ Like posts
-- 📊 View count tracking
-- 🛡️ Content sanitization and profanity filtering
-- 📱 Responsive design
+<div style="padding: 20px; border: 2px solid #ddd; border-radius: 12px; width: 90%; margin: auto; background: #fafafa; font-family: Arial;">
 
-## Tech Stack
+<h2 style = "color:#333;"> Student Details </h2>
+<div align = "left" style ="margin: 20px; font-size: 16px;">
+    <p><strong>Name:</strong> <!--- Add your name---> </p>
+    <p><strong>Email ID:</strong> <!--- Add your mail id ---> </p>
+    <p><strong>College Name:</strong> <!--- Add your college name---> </p>
+    <p><strong>Branch/Specialization :</strong> <!--- Add your branch name---> </p>
+    <p><strong>College ID:</strong> <!--- Add your college ID---> </p>
+</div>
 
-### Backend
-- Node.js + Express
-- MongoDB + Mongoose
-- JWT authentication
-- Socket.io for real-time updates
-- Express rate limiting
-- Sanitize-html for XSS protection
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-### Frontend
-- React 19 + Vite
-- React Router for navigation
-- Axios for API calls
-- React Markdown Editor
-- DOMPurify for HTML sanitization
-- Socket.io client
+<h2 style="color:#333;"> Course Details </h2>
+<div align="left" style="margin: 20px; font-size: 16px;">
+    <p><strong>Course Opted:</strong> <!--- Add your course name---> </p>
+    <p><strong>Instructor Name:</strong> <!--- Add your instructor name---> </p>
+</div>
+<div align="left" style="margin: 20px; font-size: 16px;">
+    <p><strong>Duration:</strong> <!--- Durations in months---> </p>
 
-## Getting Started
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-### Prerequisites
-- Node.js (v18 or higher)
-- MongoDB Atlas account (or local MongoDB)
+<h2 style="color:#333;"> Trainer Details </h2>
+<div align="left" style="margin: 20px; font-size: 16px;">
 
-### Installation
+<p><strong>Trainer Name:</strong> <!–– Add trainer name ––></p>
+<p><strong>Trainer Email ID:</strong> <!–– Add trainer email ––></p>
+<p><strong>Trainer Designation:</strong> <!–– Add designation along with company––></p>
 
-1. Clone the repository and navigate to the project folder
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-2. Install dependencies:
-```bash
-# Install server dependencies
-cd server
-npm install
+## **Table of Contents**
+- [Course Learning](#course-learning-to-be-edited-by-student)
+- [Projects Completed](#projects-completed)
+- [Project Introduction](#project-introduction)
+- [Technologies Used](#technologies-used)
+- [Roles and Responsibilities](#roles-and-responsibilities)
+- [Project Report](#project-report)
+- [Learnings from LST & SST](#learnings-from-lst--sst)
+- [Community Services](#community-services)
+- [Certificate](#certificate)
+- [Acknowledgments](#acknowledgments)
 
-# Install client dependencies
-cd ../client
-npm install
-```
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-3. Environment variables are already configured:
-   - `server/.env` - Backend configuration with MongoDB connection
-   - `client/.env` - Frontend configuration with API URL
 
-### Running the Application
+## Overall Learning 
 
-#### Option 1: Run separately (recommended for development)
+> _This is a placeholder. Replace the text below with your personal learning summary._
+During this course, I learned the fundamentals of web development and project design.
+I gained hands-on experience with HTML, CSS, JavaScript and strengthened my skills in 
+problem-solving, teamwork, documentation, and delivering real-world project solutions.
 
-Open two terminal windows:
 
-**Terminal 1 - Server:**
-```bash
-cd server
-npm run dev
-```
-Server will run on http://localhost:5000
+<h2 style="color:#333;"> Projects Completed </h2>
+<div align="left" style="margin: 20px; font-size: 16px;">
 
-**Terminal 2 - Client:**
-```bash
-cd client
-npm run dev
-```
-Client will run on http://localhost:5173
+<p><strong><a href="#project1">Project 1:</a></strong> &lt;!-- Add project title → --&gt;</p>
 
-#### Option 2: Run from root directory
+<p><strong><a href="#project2">Project 2:</a></strong> &lt;!-- Add project title → --&gt;</p>
 
-**Start Server:**
-```bash
-npm run server
-```
+<p><strong><a href="#project3">Project 3:</a></strong> &lt;!-- Add project title → --&gt;</p>
 
-**Start Client (in another terminal):**
-```bash
-npm run client
-```
+<p><em>(You can add more projects as needed)</em></p>
 
-## Usage
+</div>
 
-1. Open http://localhost:5173 in your browser
-2. Register a new account
-3. Create a new post using the "New Post" button
-4. Add markdown content and tags
-5. Publish your post
-6. Browse posts, filter by tags, like, and comment
+<!-- Project 1 -->
+<h3 id="project1">Project 1: <!-- Add Project Title --></h3>
+<p>
+  This project involved designing and developing a basic functional module using the core concepts taught in the course.
+  It focused on understanding requirements, creating structured code, and implementing key features.
+</p>
+<p>
+  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+</p>
 
-## API Endpoints
+<!-- Project 2 -->
+<h3 id="project2">Project 2: <!-- Add Project Title --></h3>
+<p>
+  This project expanded on intermediate concepts and required integrating multiple components to build a more complete solution.
+  It enhanced understanding of UI/UX design, modular coding, and testing.
+</p>
+<p>
+  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+</p>
 
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
+<!-- Project 3 -->
+<h3 id="project3">Project 3: <!-- Add Project Title --></h3>
+<p>
+  The final project showcased the practical application of all concepts learned throughout the course.  
+  It required planning, building, optimizing, and documenting a complete real-world project.
+</p>
+<p>
+  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+</p>
 
-### Posts
-- `GET /api/posts` - Get all published posts (with optional tag filter)
-- `GET /api/posts/tags` - Get all unique tags
-- `GET /api/posts/slug/:slug` - Get post by slug
-- `POST /api/posts/drafts` - Create draft (auth required)
-- `PUT /api/posts/:id` - Update draft (auth required)
-- `POST /api/posts/:id/publish` - Publish post (auth required)
-- `POST /api/posts/:id/like` - Like/unlike post (auth required)
+<hr style="height:1px; border-top:1px solid #ccc; width:80%;" />
 
-### Comments
-- `GET /api/comments/:postId` - Get comments for a post
-- `POST /api/comments/:postId` - Create comment (rate limited)
 
-## Project Structure
+## **References**
 
-```
-Blogging-mern/
-├── server/
-│   ├── src/
-│   │   ├── config/         # Database configuration
-│   │   ├── controllers/    # Route controllers
-│   │   ├── middleware/     # Auth & rate limiting
-│   │   ├── models/         # Mongoose models
-│   │   ├── routes/         # API routes
-│   │   ├── utils/          # Utility functions
-│   │   └── index.js        # Server entry point
-│   ├── .env                # Environment variables
-│   └── package.json
-├── client/
-│   ├── src/
-│   │   ├── lib/            # Auth utilities
-│   │   ├── pages/          # React page components
-│   │   ├── widgets/        # Reusable components
-│   │   ├── App.jsx         # Main app component
-│   │   ├── api.js          # Axios configuration
-│   │   └── main.jsx        # Entry point
-│   ├── .env                # Environment variables
-│   └── package.json
-└── README.md
-```
+- [Wikipedia](https://wikipedia.com)
+<!--you can add refrences over here in same syntax as above -->
+---
 
-## MongoDB Connection
 
-The project is configured to use MongoDB Atlas with the following connection:
-- Database: `blogging-mern`
-- Collection: Automatically created (users, posts, comments)
+## **Learnings from LST and SST**
 
-## Security Features
+<!-- add your experiences over here -->
+> _This is a placeholder. Replace the text below with your personal learning from LST and SST sessions summary._
+LST and SST sessions helped me....
+---
 
-- JWT-based authentication
-- Password hashing with bcrypt
-- HTML sanitization to prevent XSS
-- Profanity filtering in comments
-- Rate limiting on comment endpoints
-- CORS configuration
-- Input validation with express-validator
+## **Community Services**
 
-## License
+<!-- add descreption in your own words -->
 
-ISC
+During my internship period, I participated in multiple community-oriented activities .....<!-- add descreption in your own words -->
+
+### **Activities Involved**
+<!-- add the location where you given -->
+- **Blood Donation** – Donated blood and supported basic assistance tasks during the camp.
+  
+ <!-- add the location where you have panted -->
+- **Tree Plantation Drive** – Participated by planting trees and contributing to environmental improvement.
+
+  <!-- add the location where you helped -->
+- **Helping Elder Citizens** – Assisted two elderly individuals with simple daily tasks and provided support where needed. 
+
+<!-- you can write impacts according to your experience in your words-->
+
+### **Impact / Contribution**
+
+- Helped create a supportive environment during the blood donation camp. <!-- add the location where you given -->
+- Actively participated in promoting a greener and cleaner surroundings.
+- Offered personal assistance to elder citizens, strengthening community bonds.
+- Improved skills in communication, coordination, and social responsibility.
+
+### **Photos**
+
+<!-- add your photos below -->
+<!-- change url below with your image urls (inside  src='')-->
+
+- These are just placeholder (sample) images <!-- remove this line -->
+
+<div align="center">
+<img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/1/1759752731458?e=1766016000&v=beta&t=7GABy91-0FNbir386wPdJ-Grr385JzS3tR5LQIw1CWg" alt="Community Service Photo 1" width="30%">
+<img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/2/1759752731458?e=1766016000&v=beta&t=6RfJQWWqlQUPcCvDnQNW7kR6yf7w-wPDsIPxum409ck" alt="Community Service Photo 2" width="30%">
+<img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/3/1759752731458?e=1766016000&v=beta&t=yWaunKdRdLUKBLbmM3UjRYYz-_GSCfWEQ3_R7dW0xLM" alt="Community Service Photo 3" width="30%">
+</div>
+
+---
+
+## **Certificate**
+
+The internship certificate serves as an official acknowledgment of the successful completion of my training period. It will be issued by the organization upon fulfilling all required tasks and meeting the performance expectations of the program. The certificate validates the skills, experience, and contributions made during the internship.
+
+<!-- add your certificate image url below (inside src='')-->
+
+<p align="center">
+<img src="https://github.com/Lord-Rahul/Practice-Programs/blob/main/react/1/public/Gemini_Generated_Image_a6w8rda6w8rda6w8.png?raw=true" alt="Internship Certificate" width="80%">
+</p>
+
+---
+
+## **Acknowledgments**
+
+<!-- you can add Acknowledgments over here in same syntax as below . eg trainer name , company name , role etc -->
+
+- [Prof. Radhakumari Challa](https://www.linkedin.com/in/prof-radhakumari-challa-a3850219b) , Executive Director and Founder - [SURE Trust](https://www.suretrustforruralyouth.com/)
+
