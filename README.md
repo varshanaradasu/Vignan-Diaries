@@ -18,31 +18,31 @@
 
 <h2 style = "color:#333;"> Student Details </h2>
 <div align = "left" style ="margin: 20px; font-size: 16px;">
-    <p><strong>Name:</strong> <!--- Add your name---> </p>
-    <p><strong>Email ID:</strong> <!--- Add your mail id ---> </p>
-    <p><strong>College Name:</strong> <!--- Add your college name---> </p>
-    <p><strong>Branch/Specialization :</strong> <!--- Add your branch name---> </p>
-    <p><strong>College ID:</strong> <!--- Add your college ID---> </p>
+    <p><strong>Name:</strong> Naradasu Varsha </p>
+    <p><strong>Email ID:</strong> varshag30fsd@gmail.com </p>
+    <p><strong>College Name:</strong> Vignan University, Guntur, Andhra Pradesh </p>
+    <p><strong>Branch/Specialization :</strong> Computer Science and Engineering </p>
+    <p><strong>College ID:</strong> 231FA04042 </p>
 </div>
 
 <hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
 <h2 style="color:#333;"> Course Details </h2>
 <div align="left" style="margin: 20px; font-size: 16px;">
-    <p><strong>Course Opted:</strong> <!--- Add your course name---> </p>
+    <p><strong>Course Opted:</strong> Full Stack Development (G30 FSD) </p>
     <p><strong>Instructor Name:</strong> <!--- Add your instructor name---> </p>
 </div>
 <div align="left" style="margin: 20px; font-size: 16px;">
-    <p><strong>Duration:</strong> <!--- Durations in months---> </p>
+    <p><strong>Duration:</strong> March 2026 - April 2026 </p>
 
 <hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
 <h2 style="color:#333;"> Trainer Details </h2>
 <div align="left" style="margin: 20px; font-size: 16px;">
 
-<p><strong>Trainer Name:</strong> <!–– Add trainer name ––></p>
+<p><strong>Trainer Name:</strong> Ms A Akshara</p>
 <p><strong>Trainer Email ID:</strong> <!–– Add trainer email ––></p>
-<p><strong>Trainer Designation:</strong> <!–– Add designation along with company––></p>
+<p><strong>Trainer Designation:</strong> Software Developer at Propel Technology</p>
 
 <hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
@@ -63,54 +63,27 @@
 
 ## Overall Learning 
 
-> _This is a placeholder. Replace the text below with your personal learning summary._
-During this course, I learned the fundamentals of web development and project design.
-I gained hands-on experience with HTML, CSS, JavaScript and strengthened my skills in 
-problem-solving, teamwork, documentation, and delivering real-world project solutions.
+During this course, I developed a strong foundation in full stack development, gaining hands-on experience in both front-end and back-end technologies. I worked with HTML, CSS, JavaScript, and server-side frameworks to build dynamic and responsive web applications. This journey enhanced my problem-solving abilities, strengthened my understanding of system design, and improved my skills in database management and API integration. Additionally, I developed essential soft skills such as teamwork, documentation, and delivering scalable, real-world project solutions.
 
 
 <h2 style="color:#333;"> Projects Completed </h2>
 <div align="left" style="margin: 20px; font-size: 16px;">
 
-<p><strong><a href="#project1">Project 1:</a></strong> &lt;!-- Add project title → --&gt;</p>
+<p><strong><a href="#project1">Project 1:</a></strong> &lt; Vignan Diaries&gt;</p>
 
-<p><strong><a href="#project2">Project 2:</a></strong> &lt;!-- Add project title → --&gt;</p>
-
-<p><strong><a href="#project3">Project 3:</a></strong> &lt;!-- Add project title → --&gt;</p>
-
-<p><em>(You can add more projects as needed)</em></p>
 
 </div>
 
 <!-- Project 1 -->
-<h3 id="project1">Project 1: <!-- Add Project Title --></h3>
+<h3 id="project1">Project 1: Vignan Diaries</h3>
 <p>
   This project involved designing and developing a basic functional module using the core concepts taught in the course.
   It focused on understanding requirements, creating structured code, and implementing key features.
 </p>
 <p>
-  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="https://github.com/sure-trust/VARSHA-NARADASU-g30-fsd/blob/ba08837fe6af3132ce96ae1e3abf8154fb0335bf/Course%20report/Varsha%20-%20G30%20FSD.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
 </p>
 
-<!-- Project 2 -->
-<h3 id="project2">Project 2: <!-- Add Project Title --></h3>
-<p>
-  This project expanded on intermediate concepts and required integrating multiple components to build a more complete solution.
-  It enhanced understanding of UI/UX design, modular coding, and testing.
-</p>
-<p>
-  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
-</p>
-
-<!-- Project 3 -->
-<h3 id="project3">Project 3: <!-- Add Project Title --></h3>
-<p>
-  The final project showcased the practical application of all concepts learned throughout the course.  
-  It required planning, building, optimizing, and documenting a complete real-world project.
-</p>
-<p>
-  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
-</p>
 
 <hr style="height:1px; border-top:1px solid #ccc; width:80%;" />
 
@@ -124,47 +97,39 @@ problem-solving, teamwork, documentation, and delivering real-world project solu
 
 ## **Learnings from LST and SST**
 
-<!-- add your experiences over here -->
-> _This is a placeholder. Replace the text below with your personal learning from LST and SST sessions summary._
-LST and SST sessions helped me....
----
+LST (Life Skills Training) and SST (Soft Skills Training) sessions played a significant role in my personal and professional development. Through these sessions, I improved my communication skills, learned how to present my ideas confidently, and developed better interpersonal skills.
+
+LST sessions helped me understand the importance of self-awareness, goal setting, time management, and emotional intelligence. I became more disciplined and focused on my career objectives.
+
+SST sessions enhanced my professional behavior, including teamwork, leadership, and problem-solving abilities. I also learned how to handle interviews, build a strong resume, and communicate effectively in a workplace environment.
+
+Overall, these sessions boosted my confidence and prepared me to face real-world challenges in both personal and professional life.
 
 ## **Community Services**
 
-<!-- add descreption in your own words -->
+During my internship period, I actively participated in several community-oriented activities that helped me understand the value of social responsibility and giving back to society. These activities allowed me to interact with different groups of people and contribute positively to the community.
 
-During my internship period, I participated in multiple community-oriented activities .....<!-- add descreption in your own words -->
-
-### **Activities Involved**
-<!-- add the location where you given -->
-- **Blood Donation** – Donated blood and supported basic assistance tasks during the camp.
-  
- <!-- add the location where you have panted -->
-- **Tree Plantation Drive** – Participated by planting trees and contributing to environmental improvement.
-
-  <!-- add the location where you helped -->
-- **Helping Elder Citizens** – Assisted two elderly individuals with simple daily tasks and provided support where needed. 
-
-<!-- you can write impacts according to your experience in your words-->
+ ### **Activities Involved**
+- Tree Plantation Drive (Local Community Park, Guntur) – Participated in planting saplings and spreading awareness about environmental conservation among local residents.
+- Helping Elder Citizens (Residential Area, Guntur) – Assisted elderly individuals with daily tasks such as grocery shopping, organizing household items, and providing companionship.
 
 ### **Impact / Contribution**
 
-- Helped create a supportive environment during the blood donation camp. <!-- add the location where you given -->
-- Actively participated in promoting a greener and cleaner surroundings.
-- Offered personal assistance to elder citizens, strengthening community bonds.
-- Improved skills in communication, coordination, and social responsibility.
+- Contributed to environmental sustainability through active participation in the tree plantation drive.
+- Built meaningful connections by assisting elderly citizens and understanding their needs.
+- Strengthened communication, teamwork, and leadership skills through real-world community interaction.
+- Developed a deeper sense of empathy, responsibility, and social awareness.
 
 ### **Photos**
 
 <!-- add your photos below -->
 <!-- change url below with your image urls (inside  src='')-->
 
-- These are just placeholder (sample) images <!-- remove this line -->
 
 <div align="center">
-<img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/1/1759752731458?e=1766016000&v=beta&t=7GABy91-0FNbir386wPdJ-Grr385JzS3tR5LQIw1CWg" alt="Community Service Photo 1" width="30%">
-<img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/2/1759752731458?e=1766016000&v=beta&t=6RfJQWWqlQUPcCvDnQNW7kR6yf7w-wPDsIPxum409ck" alt="Community Service Photo 2" width="30%">
-<img src="https://media.licdn.com/dms/image/v2/D561FAQEJNBia4UCa5w/feedshare-document-images_800/B56Zm5b6SJJkAg-/3/1759752731458?e=1766016000&v=beta&t=yWaunKdRdLUKBLbmM3UjRYYz-_GSCfWEQ3_R7dW0xLM" alt="Community Service Photo 3" width="30%">
+<img src="https://private-user-images.githubusercontent.com/206913959/586386438-692b1b22-01f8-443d-a8ed-df5da632147a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzc2MTAwMzgsIm5iZiI6MTc3NzYwOTczOCwicGF0aCI6Ii8yMDY5MTM5NTkvNTg2Mzg2NDM4LTY5MmIxYjIyLTAxZjgtNDQzZC1hOGVkLWRmNWRhNjMyMTQ3YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUwMVQwNDI4NThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lZTJmNjEyOWU2OTFmM2YxNTQ1ZWY4MWU5M2Y2NzFjNjZhYzcwZGI1NDZhZGUyOTNmN2I5ZjE2Njc4NDI4YmIwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.3uBTaOw4ikz1lDbzQt_K9K1fJhvPiwNrocBkMxljT1A" alt="Community Service Photo 1" width="30%">
+<img src="https://private-user-images.githubusercontent.com/206913959/586387211-a981ad73-4586-408e-93d0-5cc0cf588ab2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzc2MTAxNDQsIm5iZiI6MTc3NzYwOTg0NCwicGF0aCI6Ii8yMDY5MTM5NTkvNTg2Mzg3MjExLWE5ODFhZDczLTQ1ODYtNDA4ZS05M2QwLTVjYzBjZjU4OGFiMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUwMVQwNDMwNDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NGYyZGYwNjYyOTFlOTliYjU0NzAxODY0ZWIwMDU4OGRmNTIyZTRlODI0MDE4OTM3NmU3OGE2YjUwNDEwZDgwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.GT0aJ__GVS9ZVz7K-FcHaUU3zhJar8Jlwx6MwksVM7M" alt="Community Service Photo 2" width="30%">
+
 </div>
 
 ---
@@ -186,4 +151,3 @@ The internship certificate serves as an official acknowledgment of the successfu
 <!-- you can add Acknowledgments over here in same syntax as below . eg trainer name , company name , role etc -->
 
 - [Prof. Radhakumari Challa](https://www.linkedin.com/in/prof-radhakumari-challa-a3850219b) , Executive Director and Founder - [SURE Trust](https://www.suretrustforruralyouth.com/)
-
