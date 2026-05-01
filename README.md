@@ -19,7 +19,7 @@
 <h2 style = "color:#333;"> Student Details </h2>
 <div align = "left" style ="margin: 20px; font-size: 16px;">
     <p><strong>Name:</strong> Naradasu Varsha </p>
-    <p><strong>Email ID:</strong> varshag30fsd@gmail.com </p>
+    <p><strong>Email ID:</strong> varshanaradasu2006@gmail.com </p>
     <p><strong>College Name:</strong> Vignan University, Guntur, Andhra Pradesh </p>
     <p><strong>Branch/Specialization :</strong> Computer Science and Engineering </p>
     <p><strong>College ID:</strong> 231FA04042 </p>
