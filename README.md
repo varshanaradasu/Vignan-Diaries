@@ -41,7 +41,7 @@
 <div align="left" style="margin: 20px; font-size: 16px;">
 
 <p><strong>Trainer Name:</strong> Ms A Akshara</p>
-<p><strong>Trainer Email ID:</strong> <!–– Add trainer email ––></p>
+<p><strong>Trainer Email ID:</strong> akshararajan26@gmail.com</p>
 <p><strong>Trainer Designation:</strong> Software Developer at Propel Technology</p>
 
 <hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
@@ -148,6 +148,6 @@ The internship certificate serves as an official acknowledgment of the successfu
 
 ## **Acknowledgments**
 
-<!-- you can add Acknowledgments over here in same syntax as below . eg trainer name , company name , role etc -->
+My sincere thanks to Akshara ma'am and Radhakumari ma'am for considering me to complete this internship with true dedication and determination
 
 - [Prof. Radhakumari Challa](https://www.linkedin.com/in/prof-radhakumari-challa-a3850219b) , Executive Director and Founder - [SURE Trust](https://www.suretrustforruralyouth.com/)
